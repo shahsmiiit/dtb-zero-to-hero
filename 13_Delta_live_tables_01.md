@@ -333,9 +333,10 @@ def customer_bronze():
     #            ^^^^ batch = Materialized View
 ```
 
-### Why "Materialized"?
-In database theory, a **view** is just a stored query — data isn't stored, it re-runs each time. A **materialized** view actually stores the computed result physically. Querying it is fast because the computation already happened.
-
+> [!NOTE]
+> **Why "Materialized"?**  
+> In database theory, a **view** is just a stored query — data isn't stored, it re-runs each time.  
+> A **materialized view** actually stores the computed result physically. Querying it is fast because the computation already happened.
 ---
 
 ## Type 3: 👻 View (DLT View)
