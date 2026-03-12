@@ -59,6 +59,8 @@ Cloud compute cluster:
 ## Driver + Workers: The Spark Architecture
 
 Every Databricks cluster running Spark has this structure:
+<img width="1024" height="546" alt="image" src="https://github.com/user-attachments/assets/fce112fd-86e9-406e-9e28-cc9677cc71cf" />
+
 
 ```
                     ┌─────────────────┐
